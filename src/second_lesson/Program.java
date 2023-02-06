@@ -3,6 +3,7 @@ package second_lesson;
 import first_lesson.Turtle;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class Program {
@@ -25,6 +26,8 @@ public class Program {
             source.add(rnd.nextInt(-50, 50));
         }
         splitList(source, positive, negative);
+        Collections.sort(positive);
+        Collections.sort(negative);
         for (int i = 0; i < positive.size(); i++){
             System.out.println(positive.get(i));
         }
