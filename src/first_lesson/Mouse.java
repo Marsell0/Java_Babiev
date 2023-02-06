@@ -1,3 +1,4 @@
+package first_lesson;
 import java.util.Date;
 
 public class Mouse extends Animal {

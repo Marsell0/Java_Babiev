@@ -1,3 +1,4 @@
+package first_lesson;
 public class Turtle extends Animal {
     Env env = Env.GROUND;
     Food food = Food.MEAT;
